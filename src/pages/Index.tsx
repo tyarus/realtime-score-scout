@@ -18,8 +18,8 @@ const Index = () => {
   const [matches, setMatches] = useState<Match[]>([
     {
       id: "1",
-      homeTeam: "Barcelona",
-      awayTeam: "Real Madrid",
+      homeTeam: "Persib Bandung",
+      awayTeam: "Persija Jakarta",
       homeScore: 2,
       awayScore: 1,
       status: "LIVE",
@@ -27,8 +27,8 @@ const Index = () => {
     },
     {
       id: "2",
-      homeTeam: "Manchester City",
-      awayTeam: "Liverpool",
+      homeTeam: "Arema FC",
+      awayTeam: "Persebaya Surabaya",
       homeScore: 0,
       awayScore: 0,
       status: "NOT_STARTED",
@@ -36,8 +36,8 @@ const Index = () => {
     },
     {
       id: "3",
-      homeTeam: "Bayern Munich",
-      awayTeam: "Dortmund",
+      homeTeam: "PSM Makassar",
+      awayTeam: "Bali United",
       homeScore: 3,
       awayScore: 2,
       status: "FINISHED",
@@ -82,8 +82,8 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto p-6">
         <header className="text-center mb-12">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Live Scores</h1>
-          <p className="text-gray-600">Real-time football match updates</p>
+          <h1 className="text-3xl font-bold text-gray-900 mb-2">Liga 1 BRI Live Scores</h1>
+          <p className="text-gray-600">Update skor pertandingan Liga 1 secara langsung</p>
         </header>
         
         <AnimatePresence>
